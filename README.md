@@ -1,19 +1,65 @@
-# Getting Started
-Install the dependencies and run the project
+# Metric/Imperial Unit Converter
+
+A simple web app for converting between metric and imperial units for length, volume, and mass.
+
+## Features
+
+- Convert between meters and feet
+- Convert between liters and gallons
+- Convert between kilograms and pounds
+- Clean, responsive UI
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/your-username/unit-converter.git
+    cd unit-converter
+    ```
+
+2. Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+### Running the App
+
+Start the development server:
+
+```sh
+npm run dev
 ```
-npm install
-npm start
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Building for Production
+
+```sh
+npm run build
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Project Structure
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- [`index.html`](index.html): Main HTML file
+- [`index.js`](index.js): Conversion logic and DOM manipulation
+- [`index.css`](index.css): Styles
+- [`vite.config.js`](vite.config.js): Vite configuration
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Usage
 
-Happy Coding!
+1. Enter a number in the input field.
+2. Click the **Convert** button.
+3. View the converted values for length, volume, and mass.
+
+## License
+
+MIT
