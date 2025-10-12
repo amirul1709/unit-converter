@@ -1,32 +1,38 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="header-div">
-            <h1>Metric/Imperial Unit Conversion</h1>
-            <div id="input-div">
-                <input id="user-input" type="text">
-            </div>
-            <button id="convert-btn">Convert</button>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="header-div">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <div id="input-div">
+            <input id="user-input" type="text">
         </div>
-        <div id="conversions-div">
-            <div class="conversion">
-                <p class="unit-name">Length (Meter/Feet)</p>
-                <p id="length-el">20 Meters</p>
-            </div>
-            <div class="conversion">
-                <p class="unit-name">Volume (Liters/Gallons)                
-                <p id="volume-el">20 Liters</p>
-            </div>
-            <div class="conversion">
-                <p class="unit-name">Mass (Kilograms/Pounds)</p>
-                <p id="mass-el">20 Kilograms</p>
-            </div>
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div id="conversions-div">
+        <div class="conversion">
+            <p class="unit-name">Length (Meter/Feet)</p>
+            <p id="length-el">1 meter = 3.281 feet</p>
         </div>
-            <script src="index.js"></script>
-    </body>
+        <div class="conversion">
+            <p class="unit-name">Volume (Liters/Gallons)
+            <p id="volume-el">1 liter = 0.264 gallons</p>
+        </div>
+        <div class="conversion">
+            <p class="unit-name">Mass (Kilograms/Pounds)</p>
+            <p id="mass-el">1 kilogram = 2.204 pound</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
