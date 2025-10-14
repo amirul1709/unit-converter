@@ -1,3 +1,7 @@
+:root {
+    color-scheme: light dark;
+}
+
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -15,6 +19,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     background-color: #FFFFFF;
+    color: #3D3D3D;
     border: none;
     border-radius: 5px;
     padding: 8px 30px;
@@ -54,18 +59,18 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: light-dark(#F4F4F4, #1F2937);
     padding: 40px 20px;
     margin: 0;
 }
 
 .conversion {
-    background-color: #273549;
-    color: #FFFFFF;
+    background-color: light-dark(#FFFFFF, #273549);
+    color: light-dark(#353535, #FFFFFF);
     margin-bottom: 10px;
     padding: 10px 20px;
 }
 
 .unit-name {
-    color: #CCC1FF;
+    color: light-dark(#5A537B, #CCC1FF);
 }
