@@ -26,6 +26,14 @@ button {
     margin: 0;
 }
 
+button:hover {
+    background-color: #e6e6e6;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
 #header-div {
     background-color: #6943FF;
     color: #FFFFFF;
@@ -38,7 +46,6 @@ button {
     color: #FFFFFF;
     font-size: 58px;
     font-weight: 800;
-    font-style: bold;
     background-color: #6943FF;
     width: 100%;
     border: none;
